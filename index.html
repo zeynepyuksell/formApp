@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="https://formsubmit.co/zeynepnyuksell@email.com" method="POST">
+      <div>
+        <label for="isim">İsim:</label>
+        <input type="text" id="isim" name="isim" required />
+      </div>
+      <br />
+      <div>
+        <label for="soyisim">Soyisim:</label>
+        <input type="text" id="soyisim" name="soyisim" required />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <br />
+      <div>
+        <label for="yas">Yaşınız:</label>
+        <input type="number" id="yas" name="yas" required />
+      </div>
+      <br />
+      <div>
+        <label for="mesaj">Mesajınız:</label>
+        <textarea id="mesaj" name="mesaj" required></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="begeni">Sitemizi ne kadar beğendiniz:</label>
+        <input type="range" id="begeni" name="begeni" required />
+      </div>
+      <br />
+
+      <label for="submit">Gönder:</label>
+      
+    </form>
+    <!--<textarea> etiketi çok satırlı metin giriş alanları tanımlar-->
+    <!--<range> etieketi belirli bir aralıktaki, örneğin 0'dan 100'e kadar olan sayısal değerleri seçmeye ayrılmış bir çubuktur.--->
+    <input type="email" name="email" required />
+    <button type="submit" id="submit">Send</button>
+  </body>
+</html>
